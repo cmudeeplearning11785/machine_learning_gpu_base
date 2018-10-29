@@ -28,7 +28,7 @@ RUN pip3 install python-Levenshtein
 #-----------------------------------
 # Pytorch
 #-----------------------------------
-RUN pip3 install http://download.pytorch.org/whl/cu90/torch-0.3.1-cp35-cp35m-linux_x86_64.whl 
+RUN pip3 install http://download.pytorch.org/whl/cu90/torch-0.4.0-cp35-cp35m-linux_x86_64.whl 
 RUN pip3 install torchvision
 RUN pip3 install git+https://github.com/pytorch/tnt.git@master
 RUN pip3 install git+https://github.com/inferno-pytorch/inferno --no-deps
